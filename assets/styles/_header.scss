@@ -78,6 +78,15 @@
         font-weight: 500;
         line-height: normal;
     }
+    .header_res{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header_mobile{
+        display: block;
+    }
     
    
 }
+
+
