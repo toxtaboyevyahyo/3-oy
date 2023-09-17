@@ -335,6 +335,45 @@
   margin-bottom: 30px;
 }
 
+.terminal {
+  background-image: url(/assets/images/terminal.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.terminal_block {
+  padding-top: 104px;
+  padding-bottom: 104px;
+  padding-left: 255px;
+}
+.terminal_title {
+  color: var(--white, #F3F3F3);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.terminal_text {
+  width: 516px;
+  margin-top: 30px;
+  margin-bottom: 24px;
+  color: var(--white, #F3F3F3);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
+.terminal-title {
+  color: var(--white, #F3F3F3);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
 * {
   padding: 0;
   margin: 0;
