@@ -1,6 +1,7 @@
 .service{
     &_block{
         display: flex;
+        background: var(--bg-light, #272B30);
         flex-wrap: wrap;
         justify-content: center;
     }
