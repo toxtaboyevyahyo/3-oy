@@ -2,6 +2,7 @@
   background-image: url(/assets/images/icons/header_bcg.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 .header .header_container {
   padding-top: 33px;
@@ -372,6 +373,47 @@
   font-style: normal;
   font-weight: 600;
   line-height: 130%;
+}
+
+.select_block {
+  padding: 50px 50px 50px 50px;
+  background: var(--bg, #212529);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.select_title {
+  color: var(--white, #F3F3F3);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.select_text {
+  color: var(--white, #F3F3F3);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.select-title {
+  background-image: url(/assets/images/select.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 10px;
+  color: var(--white, #F3F3F3);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 180%;
 }
 
 * {

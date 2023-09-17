@@ -1,0 +1,38 @@
+.select{
+    &_block{
+        padding: 50px 50px 50px 50px;
+        background: var(--bg, #212529);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    &_title{
+        color: var(--white, #F3F3F3);
+        font-family: Montserrat;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    &_text{
+        color: var(--white, #F3F3F3);
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    &-title{
+        background-image: url(/assets/images/select.svg);
+        background-repeat: no-repeat;
+        background-position: left;
+        padding: 10px;
+        color: var(--white, #F3F3F3);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 180%;
+    }
+}
